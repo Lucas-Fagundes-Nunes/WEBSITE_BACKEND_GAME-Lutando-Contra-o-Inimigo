@@ -24,8 +24,11 @@ class Hero {
     }
 
     cure() {
-        if (this.type['cure'] > 0) {
+        if (this.type['cure'] > 0 ) {
             this.life = this.life + this.type['cure']
+            if (this.life > 100) {
+                this.life = 100
+            }
             return true
         } else {
             return false

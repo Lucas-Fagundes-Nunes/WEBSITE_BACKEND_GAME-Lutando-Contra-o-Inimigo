@@ -1,0 +1,36 @@
+
+{
+    "type": [{
+            "name": "mage",
+            "attack": 20,
+            "power": 50,
+            "cure": 20,
+            "defense": 50,
+            "item": "magic"
+        },
+        {
+            "name": "warrior",
+            "attack": 70,
+            "power": 20,
+            "cure": 10,
+            "defense": 40,
+            "item": "sword"
+        },
+        {
+            "name": "monk",
+            "attack": 70,
+            "power": 20,
+            "cure": 12,
+            "defense": 60,
+            "item": null
+        },
+        {
+            "name": "ninja",
+            "attack": 60,
+            "power": 20,
+            "cure": 40,
+            "defense": 40,
+            "item": "shuriken"
+        }
+    ]
+}
